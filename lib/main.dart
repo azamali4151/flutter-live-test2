@@ -26,7 +26,7 @@ class ProfilePage extends StatelessWidget {
           'Profile',
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 20, // Adjust the font size as needed
+            fontSize: 20,
           ),
         ),
         centerTitle: true,
@@ -39,7 +39,7 @@ class ProfilePage extends StatelessWidget {
               radius: 50,
               backgroundImage: AssetImage('assets/profile_image.png'),
             ),
-            SizedBox(height: 10), // Adding some space between image and name
+            SizedBox(height: 10),
             Text(
               'Md. Azam Ali',
               style: TextStyle(
@@ -47,7 +47,7 @@ class ProfilePage extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 10), // Adding some space between name and email
+            SizedBox(height: 10),
             Text(
               'azamali@gmail.com',
               style: TextStyle(
@@ -55,7 +55,7 @@ class ProfilePage extends StatelessWidget {
                 color: Colors.grey,
               ),
             ),
-            SizedBox(height: 20), // Adding space between email and additional text
+            SizedBox(height: 20),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
